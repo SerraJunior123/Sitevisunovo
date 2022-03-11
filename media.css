@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
-*{
-   
 
-
-}
 
 @media (max-width:360px){
     .cabeçalho-bg{
@@ -45,9 +41,7 @@
         height: 50px;
         background-color: #9900cc;
         padding: 20px;
-        
-   
-    
 
 }
+
 }
