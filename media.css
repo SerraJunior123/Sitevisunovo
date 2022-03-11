@@ -9,7 +9,7 @@
 
 }
 
-@media (max-width:360px){
+@media (max-width:400px){
 
     .cabeçalho-bg{
      
@@ -84,7 +84,16 @@
     margin-top: 20px;
     padding-bottom: 30px;
 }
-
+.imagens03{
+    flex-wrap: wrap;
+    display:flex;
+    margin: 0 auto;
+    max-width: 360px;
+    align-items: center;
+    justify-content:center;
+    padding-bottom: 30px;
+    border-bottom: 3px solid rgb(206, 206, 206);
+}
 .wha-link{
     position: fixed;
     width: 50px;
