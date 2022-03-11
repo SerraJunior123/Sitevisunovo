@@ -10,9 +10,10 @@
     .cabeçalho-bg{
      
         max-width: 360px;
-        
         color: aliceblue;
         background-color: black;
+        padding: 20px;
+        margin: auto;
        
     }
     .cabeçalho-bg nav li{
@@ -21,7 +22,7 @@
     margin: 20px;
     text-align: center;
     font-family: "Nunito";
-    
+
        
         
     }
