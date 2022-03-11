@@ -13,19 +13,23 @@
         color: aliceblue;
         background-color: black;
         padding: 20px;
-        margin: auto;
+        
        
     }
     .cabeçalho-bg nav li{
 
-      display: block;
+    display: block;
     margin: 20px;
     text-align: center;
     font-family: "Nunito";
-
-       
         
     }
+    .cabeçalho-bg li:hover{
+        background-color: purple;
+        border-radius: 15px;
+        transition: .2s;
+        cursor: pointer; 
 
 
+}
 }
