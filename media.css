@@ -73,7 +73,7 @@
 .imagens01{
     flex-direction: column;
     display:flex;
-    
+
    
     
    
@@ -81,5 +81,27 @@
     
  
 }
+   
+.wha-link{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    right: 25px;
+    background-color: #25b366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+    min-width: 50px;
 
+
+}
+.fa-whatsapp{
+    color: white;
+    margin-top: 10px;
+
+}
 }
