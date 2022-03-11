@@ -9,16 +9,20 @@
 
 }
 
-@media (max-width:800px){
+@media (max-width:599px){
 
     .cabeçalho-bg{
      
-        max-width: 360px;
+        max-width: 599px;
         color: aliceblue;
         background-color: black;
         padding: 20px;
         
        
+    }
+    .logovisu{
+        display: flex;
+       justify-content:  center;
     }
     .cabeçalho-bg nav li{
 
@@ -36,7 +40,7 @@
 }
     .barra-bg{
     
-        max-width: 360px;
+        max-width: 599px;
         font-family: 'Nunito';
         font-size:.5em;
         color: white;
@@ -78,7 +82,7 @@
     flex-wrap: wrap;
     display:flex;
     margin: 0 auto;
-    max-width:360px;
+    max-width:599px;
     align-items: center;
     justify-content:center;
     margin-top: 20px;
@@ -88,7 +92,7 @@
     flex-wrap: wrap;
     display:flex;
     margin: 0 auto;
-    max-width: 360px;
+    max-width: 599px;
     align-items: center;
     justify-content:center;
     padding-bottom: 30px;
