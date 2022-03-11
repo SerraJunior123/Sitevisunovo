@@ -41,7 +41,7 @@
         font-size:.5em;
         color: white;
         flex-direction: column;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items:center;
         justify-content: center;
         display: flex;
@@ -73,15 +73,18 @@
 .imagens01{
     flex-direction: column;
     display:flex;
-
-   
-    
-   
-   
-    
- 
 }
-   
+.imagens02{
+    flex-wrap: wrap;
+    display:flex;
+    margin: 0 auto;
+    max-width:360px;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
 .wha-link{
     position: fixed;
     width: 50px;
@@ -103,7 +106,17 @@
 .fa-whatsapp{
     color: white;
     margin-top: 10px;
+}
+footer{
+    display: block;
+    width: 100%;
+    background-color: black;
+   height: 250px;
+   
 
+    
+    
 
 }
+   
 }
