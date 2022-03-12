@@ -139,10 +139,35 @@ footer{
     width: 100%;
     background-color: black;
     height: 250px;
-    margin-bottom: 0;
+    margin-bottom: 0; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
     
-    
+    color: rgb(255, 255, 255);
 
+  
+    
+  
+   
+
+}
+footer div{
+   display: flex;
+   align-items:center;
+    background-color:black;
+    border-right: 3px solid #9900cc;
+    padding-right: 20px;
+    max-width: 510px;
+    min-height: 150px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+  
+    
+}
+.insta{
+    margin-left: 20px;
+    
 }
    
 .wha-link{
