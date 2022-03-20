@@ -121,16 +121,24 @@
     margin-top: 10px;
 }
 footer{
-    display: block;
-    margin: 0 auto;
+    display: flex;
+   
     width: 100%;
     background-color: black;
     height: 250px;
-   
+    justify-content: center;
+ align-items: center ;
 
-    
-    
+}
 
+.insta{
+   align-self: center;
+
+ 
+    
+}
+p{
+    display: none;
 }
 .btn2{
     display: none;
