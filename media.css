@@ -38,6 +38,11 @@
         transition: .2s;
         cursor: pointer; 
 }
+.cabeçalho-bg a:visited{
+    text-decoration: none;
+    color: #9900cc;
+
+}
     .barra-bg{
     
         max-width: 599px;
