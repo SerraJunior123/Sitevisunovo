@@ -12,11 +12,16 @@
 @media (max-width:599px){
 
     .cabeçalho-bg{
+        display: flex;
+    
+        flex-direction: column;
+        
+      
      
         max-width: 599px;
         color: aliceblue;
         background-color: black;
-        padding: 20px;
+        padding: 5px;
         
        
     }
@@ -26,17 +31,28 @@
     }
     .cabeçalho-bg nav li{
 
-    display: block;
-    margin: 20px;
+    display: none;
+    margin: 2px;
     text-align: center;
     font-family: "Nunito";
         
     }
-    .cabeçalho-bg li:hover{
-        background-color: #9900cc;
-        border-radius: 15px;
-        transition: .2s;
-        cursor: pointer; 
+  
+}
+#togle{
+ 
+width: 35px;
+padding: 2px;
+margin-bottom: 1px;
+}
+#tg2{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+   
+    
 }
 .cabeçalho-bg a:visited{
     text-decoration: none;

@@ -123,6 +123,9 @@
     
  
 }
+#togle{
+    display: none;
+}
 .imagens02{
     flex-wrap: wrap;
     display:flex;
@@ -204,7 +207,8 @@ footer div{
 }
 
 
-.form{ 
+#form{ 
+    
     border-radius: 30px;
     margin: auto;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -218,6 +222,19 @@ footer div{
 
     
 }
+.btn2{ 
+    background-color: #000000;
+    border-radius: 10px;
+    border-color: rgb(170, 215, 255);
+    width:100px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    
+   
+
+    
+}
 #btn1{
     background-color: #43d31f;
     border-radius: 10px;
@@ -226,7 +243,27 @@ footer div{
     height: 40px;
     display: block;
 }
-
+#img{
+    display: none;
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+.imagem{
+    display: block !important;
+    margin: auto;
+    margin-top: 50px;
+    transition-timing-function: ease;
+    transition-duration: 800ms;
+}
+#voltar {
+    display: none;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #9900cc;
+    color: #ffffff;
+    width: 150px;
+    border-radius: 10px;
+}
 
 
     
